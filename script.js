@@ -12,7 +12,7 @@ function submitForm() {
   let empAddress = document.querySelector('textarea[name="emp_address"]').value;
 
   // ส่งข้อมูลไปยัง Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbwEyIPYPecqwGVlkJfG1Cyup_xH4hpifLBw6faQ2VoSGmazN2qZxwj4L_epm-j66857sw/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwJCewW9jcvH0X5wby-QXw5UfOfmlSbZyMmTDzyju7P3pz_xnEow6mJ4LfG5Z14ypQYZQ/exec', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
